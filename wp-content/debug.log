@@ -16,3 +16,319 @@
 [20-Oct-2025 07:18:21 UTC]   Automatic plugin updates starting...
 [20-Oct-2025 07:18:21 UTC]   Automatic plugin updates complete.
 [20-Oct-2025 07:18:23 UTC] Automatic updates complete.
+[20-Oct-2025 07:42:25 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_l...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_l...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:44:26 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_l...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_l...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:44:42 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_l...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_l...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\bricotips\index.php(17): require('C:\\laragon\\www\\...')
+#14 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_l...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_l...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\bricotips\index.php(17): require('C:\\laragon\\www\\...')
+#14 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:44:54 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_l...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_l...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\bricotips\index.php(17): require('C:\\laragon\\www\\...')
+#14 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:46:00 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_Link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_L...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_L...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\bricotips\wp-admin\widgets.php(10): require_once('C:\\laragon\\www\\...')
+#14 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:46:04 UTC] PHP Fatal error:  Uncaught Error: Class "Footer_Widget_Link" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Footer_Widget_L...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Footer_Widget_L...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\bricotips\wp-admin\edit.php(10): require_once('C:\\laragon\\www\\...')
+#14 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:50:41 UTC] PHP Fatal error:  Uncaught Error: Class "Bloc_Lien_Image_Widget" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Bloc_Lien_Image...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Bloc_Lien_Image...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:52:42 UTC] PHP Fatal error:  Uncaught Error: Class "Bloc_Lien_Image_Widget" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Bloc_Lien_Image...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Bloc_Lien_Image...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "Bloc_Lien_Image_Widget" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Bloc_Lien_Image...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Bloc_Lien_Image...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:55:01 UTC] PHP Fatal error:  Uncaught Error: Class "Bloc_Lien_Image_Widget" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Bloc_Lien_Image...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Bloc_Lien_Image...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:57:02 UTC] PHP Fatal error:  Uncaught Error: Class "Bloc_Lien_Image_Widget" not found in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-includes\widgets.php(123): WP_Widget_Factory->register('Bloc_Lien_Image...')
+#1 C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php(34): register_widget('Bloc_Lien_Image...')
+#2 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): register_widgets('')
+#3 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\bricotips\wp-includes\widgets.php(1870): do_action('widgets_init')
+#6 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#7 C:\laragon\www\bricotips\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\laragon\www\bricotips\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\bricotips\wp-settings.php(727): do_action('init')
+#10 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\bricotips\wp-includes\class-wp-widget-factory.php on line 62
+[20-Oct-2025 07:59:03 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 07:59:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 07:59:03 UTC] PHP Notice:  La fonction _load_textdomain_just_in_time a été appelée de façon <strong>incorrecte</strong>. Le chargement de la traduction pour le domaine <code>brico-tips</code> a été déclenché trop tôt. Cela indique généralement que du code dans l’extension ou le thème s’exécute trop tôt. Les traductions doivent être chargées au moment de l’action <code>init</code> ou plus tard. Veuillez lire <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 6.7.0.) in C:\laragon\www\bricotips\wp-includes\functions.php on line 6121
+[20-Oct-2025 07:59:03 UTC] PHP Warning:  Trying to access array offset on false in C:\laragon\www\bricotips\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[20-Oct-2025 07:59:03 UTC] PHP Warning:  Trying to access array offset on false in C:\laragon\www\bricotips\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[20-Oct-2025 08:00:38 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:56 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:56 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:56 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:00:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:01:38 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:01:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:01:52 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:01:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\wp-admin\widgets.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:01:55 UTC] PHP Warning:  require_once(__DIR__widgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:01:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '__DIR__widgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\wp-admin\widgets.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:02:13 UTC] PHP Warning:  require_once(C:\laragon\www\bricotips\wp-content\themes\brycotipswidgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:02:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\bricotips\wp-content\themes\brycotipswidgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\wp-admin\widgets.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:02:17 UTC] PHP Warning:  require_once(C:\laragon\www\bricotips\wp-content\themes\brycotipswidgets/BlocLienImageWidget.php): Failed to open stream: No such file or directory in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:02:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\bricotips\wp-content\themes\brycotipswidgets/BlocLienImageWidget.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php:27
+Stack trace:
+#0 C:\laragon\www\bricotips\wp-settings.php(695): include()
+#1 C:\laragon\www\bricotips\wp-config.php(107): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\bricotips\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\bricotips\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\bricotips\wp-admin\widgets.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 27
+[20-Oct-2025 08:03:01 UTC] PHP Warning:  Undefined array key "title" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 29
+[20-Oct-2025 08:03:01 UTC] PHP Warning:  Undefined array key "url_image" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 30
+[20-Oct-2025 08:03:01 UTC] PHP Warning:  Undefined array key "url_lien" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 31
+[20-Oct-2025 08:04:47 UTC] PHP Warning:  Undefined array key "title" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 29
+[20-Oct-2025 08:04:47 UTC] PHP Warning:  Undefined array key "url_image" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 30
+[20-Oct-2025 08:04:47 UTC] PHP Warning:  Undefined array key "url_lien" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 31
+[20-Oct-2025 08:11:32 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\bricotips/wp-content/themes/brycotips/css/shortcodes/bloc-lien-image-widget.css in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 21
