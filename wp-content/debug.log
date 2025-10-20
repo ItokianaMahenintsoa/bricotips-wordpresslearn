@@ -332,3 +332,9 @@ Stack trace:
 [20-Oct-2025 08:04:47 UTC] PHP Warning:  Undefined array key "url_image" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 30
 [20-Oct-2025 08:04:47 UTC] PHP Warning:  Undefined array key "url_lien" in C:\laragon\www\bricotips\wp-content\themes\brycotips\widgets\BlocLienImageWidget.php on line 31
 [20-Oct-2025 08:11:32 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\bricotips/wp-content/themes/brycotips/css/shortcodes/bloc-lien-image-widget.css in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 21
+[20-Oct-2025 11:13:53 UTC] Automatic updates starting...
+[20-Oct-2025 11:13:56 UTC]   Automatic plugin updates starting...
+[20-Oct-2025 11:13:56 UTC]   Automatic plugin updates complete.
+[20-Oct-2025 11:13:58 UTC] Automatic updates complete.
+[20-Oct-2025 12:59:23 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\bricotips/wp-content/themes/brycotips/css/shortcodes/bloc-lien-image-widget.css in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 21
+[20-Oct-2025 13:01:49 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\bricotips/wp-content/themes/brycotips/css/shortcodes/bloc-lien-image-widget.css in C:\laragon\www\bricotips\wp-content\themes\brycotips\functions.php on line 21
